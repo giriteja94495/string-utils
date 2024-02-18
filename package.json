@@ -1,0 +1,29 @@
+{
+  "name": "easy-string-utils",
+  "version": "1.0.0",
+  "description": "One Stop for all string utility functions",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giriteja94495/string-utils.git"
+  },
+  "keywords": [
+    "string",
+    "utils",
+    "string",
+    "reverse"
+  ],
+  "author": "Bille Giriteja",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giriteja94495/string-utils/issues"
+  },
+  "homepage": "https://github.com/giriteja94495/string-utils#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "typescript": "^5.3.3"
+  }
+}
