@@ -1,4 +1,5 @@
-import {morseCodeMap,reverseMorseCodeMap,formatPhoneNumber} from './constants';
+const { morseCodeMap, reverseMorseCodeMap, formattingRules } = require('./constants');
+
 function reverseString(str) {
   return str.split('').reverse().join('');
 }
@@ -106,13 +107,6 @@ function formatPhoneNumber(countryCode, phoneNumber) {
     return phoneNumber;
   }
 }
-
-
-
-
-
-
-
 
 module.exports = {
   reverseString,
